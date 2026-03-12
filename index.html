@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PitchStream | Real-Time Sports Insights</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-green: #4CAF50;
+            --dark-bg: #0f0f0f;
+            --card-bg: #1a1a1a;
+            --text-main: #ffffff;
+            --text-dim: #a0a0a0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-main);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .logo-text {
+            font-size: 3rem;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 10px;
+        }
+
+        .logo-text span {
+            color: var(--primary-green);
+        }
+
+        .hero-sub {
+            color: var(--text-dim);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: var(--primary-green);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #333;
+            text-align: left;
+        }
+
+        .feature-card i {
+            color: var(--primary-green);
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 0;
+            border-top: 1px solid #333;
+            margin-top: 50px;
+        }
+
+        .footer-links a {
+            color: var(--text-dim);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--primary-green);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo-text">Pitch<span>Stream</span></div>
+            <p class="hero-sub">Experience the heartbeat of football with lightning-fast scores, live alerts, and deep match insights.</p>
+            <div class="badge-container">
+                <a href="#" class="btn"><i class="fab fa-google-play"></i> Get it on Play Store</a>
+            </div>
+        </header>
+
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-bolt"></i>
+                <h3>Instant Alerts</h3>
+                <p>Never miss a goal. Our proprietary channel delivers updates faster than the live broadcast.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-star"></i>
+                <h3>Favorites</h3>
+                <p>Track your specific teams and leagues with a customized dashboard tailored to your passion.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-halved"></i>
+                <h3>Secure & Reliable</h3>
+                <p>Built on kaseolodge.org infrastructure to ensure 99.9% uptime for your matchday needs.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 PitchStream App. All rights reserved.</p>
+            <p style="color: #666; font-size: 0.8rem;">Official Support: contact@kaseolodge.org</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
